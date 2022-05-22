@@ -5,43 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Header-->
-        <nav>
-            <a href="">WebStudio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html" target="_parent" rel="nofollow">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav class="nav-tutorial">
+            <a href="./index.html">WebStudio</a>
+            <ul class="nav-tittle">
+                <li ><a class="nav-link" href="./index.html">Студия</a></li>
+                <li><a class="nav-link" href="./portfolio.html" target="_parent" rel="nofollow">Портфолио</a></li>
+                <li><a class="nav-link" href="">Контакты</a></li>
             </ul> 
         </nav> 
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:+380961111111">+380961111111</a>
     <!--Main content-->
     <main> 
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <!--Hero-->
+        <section class="hero">
+            <h1 class="hero-tutorial">Эффективные решения<br>
+               для вашего бизнеса</h1>
+            <button type="button" class="button-first">Заказать услугу</button>
         </section>
-        <section>
+        <section class="benefits">
             <h2>Преимущества</h2>
                 <ul>
                     <li>
-                        <h3>Внимание к деталям</h3>   
-                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="benefits-title">Внимание к деталям</h3>   
+                        <p class="benefits-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li>
-                        <h3>Пунктуальность</h3>
-                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="benefits-title">Пунктуальность</h3>
+                        <p class="benefits-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li>
-                        <h3>Планирование</h3>
-                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="benefits-title">Планирование</h3>
+                        <p class="benefits-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
                     <li>
-                        <h3>Современные технологии</h3>
-                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="benefits-title">Современные технологии</h3>
+                        <p class="benefits-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
         </section>
@@ -56,7 +59,7 @@
             </ul>
         </section>
     <!--Our Team-->
-        <section>
+        <section class="team">
              <h3>Наша команда</h3>
                 <ul>
                     <li><img src="./images/ProductDesigner.jpg" alt="Product Designer" width="270">

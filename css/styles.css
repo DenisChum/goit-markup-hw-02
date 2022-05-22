@@ -1,0 +1,74 @@
+:root {
+    --primary-text-color: #212121;
+    --little-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-color: #2F303A;
+    --main-white-color: #FFFFFF;
+    --bg-main-color: #E5E5E5;
+    --bg-seconfary-color: #F5F4FA;
+
+}
+
+.body {
+    background-color: var(--bg-main-color);
+    color: var(--primary-text-color);
+}
+
+/* Header */
+
+.navigation-tutorial {
+   background-color: var(--main-white-color);
+   color: var(--primary-text-color);
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-tittle {
+    color: var(--primary-text-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color:var(--hero-color) ;
+}
+
+.hero-tutorial {
+    color: var(--main-white-color);
+}
+
+/* Button */
+
+.button-first {
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+
+}
+
+/* Benefits */
+
+.benefits.tittle {
+ background-color: var(--bg-main-color);
+ color: var(--primary-text-color);
+}
+
+.benefits-text {
+    background-color: var(--bg-main-color);
+    color: var(--little-text-color);
+
+}
+
+/* About areas of work */
+/* Our Team */
+
+.team {
+    background-color: var(--bg-seconfary-color);
+    color: var(--primary-text-color);
+}
+/* Footer */
