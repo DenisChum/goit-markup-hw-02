@@ -6,6 +6,8 @@
     --main-white-color: #FFFFFF;
     --bg-main-color: #E5E5E5;
     --bg-seconfary-color: #F5F4FA;
+    --bg-footer-color: #2F303A;
+    --bg-portfolio-tables: #EEEEEE;
 
 }
 
@@ -14,11 +16,21 @@
     color: var(--primary-text-color);
 }
 
+.logo {
+    color: ;
+}
+
 /* Header */
 
 .navigation-tutorial {
    background-color: var(--main-white-color);
    color: var(--primary-text-color);
+  
+}
+
+.nav-link {
+    color: var(--primary-text-color);
+    
 }
 
 .nav-link:hover {
@@ -29,14 +41,23 @@
     color: var(--accent-color);
 }
 
+.nav-adress {
+    color: var(--little-text-color);
+}
+.nav-adress:hover {
+    color: var(--accent-color);
+}
+
 .nav-tittle {
     color: var(--primary-text-color);
+    list-style-type: none;
 }
 
 /* Hero */
 
 .hero {
     background-color:var(--hero-color) ;
+    
 }
 
 .hero-tutorial {
@@ -51,6 +72,23 @@
 
 }
 
+.button-secondary {
+
+color: #212121;
+background: #F5F4FA;
+border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px;
+}
+
+.button-secondary:hover {
+color: var(--main-white-color); 
+background-color: var(--accent-color);
+}
+
+
+
+
 /* Benefits */
 
 .benefits.tittle {
@@ -59,16 +97,110 @@
 }
 
 .benefits-text {
-    background-color: var(--bg-main-color);
+    background-color: var(--main-white-color);
     color: var(--little-text-color);
-
 }
 
+.benefits {
+    color: transparent;
+    font-size: 0;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
 /* About areas of work */
+
+.work {
+    background-color: var(--main-white-color);
+}
+
+.work-tittle {
+    color: var(--primary-text-color);
+}
+
+.work-list {
+    list-style-type: none;
+}
 /* Our Team */
 
 .team {
     background-color: var(--bg-seconfary-color);
     color: var(--primary-text-color);
 }
+
+.team-members {
+    background-color: var(--main-white-color);
+    color: var(--primary-text-color);
+}
+
+.team-tittle {
+    color: var(--primary-text-color);
+
+}
+
+.team-position {
+    color: var(--little-text-color);
+
+}
+
+.team-list {
+    list-style-type: none;
+}
 /* Footer */
+
+.footer {
+    background-color: var(--bg-footer-color);
+    color: var(--main-white-color);
+}
+
+.footer-adress {
+    color: var(--main-white-color);
+
+}
+
+.footer-link {
+    color: rgba(255,255,255,60%);
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+/* Page portfolio */
+/* Head */
+
+.body-portfolio {
+    background-color: var(--main-white-color);
+    color: var(--primary-text-color);
+}
+
+/* Header */
+/* Main content */
+
+.main {
+    background-color: var(--main-white-color);
+}
+
+.main-list {
+list-style-type: none;
+}
+
+.main-tittle {
+    color: transparent;
+    font-size: 0;
+}
+
+.examples-list {
+    list-style-type: none;
+
+}
+
+.examples-tables {
+    background-color: var(--main-white-color);
+    color: var(--primary-text-color);
+}
+
+.examples-categories {
+    color: var(--little-text-color);
+}
