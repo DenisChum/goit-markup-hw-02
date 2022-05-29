@@ -8,29 +8,46 @@
     --bg-seconfary-color: #F5F4FA;
     --bg-footer-color: #2F303A;
     --bg-portfolio-tables: #EEEEEE;
+    --logo-color: #000000;
 
 }
 
 .body {
-    background-color: var(--bg-main-color);
+    background-color: var(--main-white-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em; 
+    font-style: normal;
 }
 
 .logo {
-    color: ;
-}
+    color: var(--accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+} 
 
-/* Header */
+.logo>.web {
+    color: var(--main-white-color) }
 
-.navigation-tutorial {
+    /* Header */
+
+.nav-tutorial {
    background-color: var(--main-white-color);
    color: var(--primary-text-color);
+   letter-spacing: 0.02em;
   
 }
 
 .nav-link {
     color: var(--primary-text-color);
-    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover {
@@ -42,7 +59,14 @@
 }
 
 .nav-adress {
+
     color: var(--little-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
 }
 .nav-adress:hover {
     color: var(--accent-color);
@@ -53,6 +77,10 @@
     list-style-type: none;
 }
 
+.nav-info {
+background-color: var(--main-white-color);
+list-style: none;
+}
 /* Hero */
 
 .hero {
@@ -62,6 +90,12 @@
 
 .hero-tutorial {
     color: var(--main-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Button */
@@ -69,6 +103,11 @@
 .button-first {
     background-color: var(--accent-color);
     color: var(--main-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 
 }
 
@@ -91,23 +130,40 @@ background-color: var(--accent-color);
 
 /* Benefits */
 
-.benefits.tittle {
- background-color: var(--bg-main-color);
- color: var(--primary-text-color);
+.benefits-title {
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.benefits.title {
+background-color: var(--bg-main-color);
+color: var(--primary-text-color);
+
 }
 
 .benefits-text {
     background-color: var(--main-white-color);
     color: var(--little-text-color);
+ 
+   
 }
 
 .benefits {
     color: transparent;
     font-size: 0;
+    ;
 }
 
 .benefits-list {
     list-style-type: none;
+
+}
+
+.benefits-tutorial {
+    background-color: var(--main-white-color);
 }
 /* About areas of work */
 
@@ -117,6 +173,10 @@ background-color: var(--accent-color);
 
 .work-tittle {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 .work-list {
@@ -136,17 +196,29 @@ background-color: var(--accent-color);
 
 .team-tittle {
     color: var(--primary-text-color);
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 .team-position {
     color: var(--little-text-color);
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .team-list {
     list-style-type: none;
 }
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+
 /* Footer */
 
 .footer {
@@ -156,11 +228,20 @@ background-color: var(--accent-color);
 
 .footer-adress {
     color: var(--main-white-color);
-
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+   
 }
 
 .footer-link {
     color: rgba(255,255,255,60%);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none
+    
 }
 
 .footer-list {
