@@ -66,7 +66,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
+    
 }
 .nav-adress:hover {
     color: var(--accent-color);
@@ -108,23 +108,27 @@ list-style: none;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
 }
 
 .button-secondary {
 
-color: #212121;
-background: #F5F4FA;
-border-radius: 5px; 
--moz-border-radius: 5px; 
--webkit-border-radius: 5px;
+color: var(--primary-text-color);
+background: var(--bg-seconfary-color);
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+
 }
 
 .button-secondary:hover {
 color: var(--main-white-color); 
 background-color: var(--accent-color);
+cursor: pointer;
 }
-
 
 
 
@@ -232,7 +236,16 @@ line-height: 1.19;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
    
+}
+
+.footer-adress:hover {
+    color: var(--accent-color);
+}
+
+.footer-adress:focus {
+    color: var(--accent-color);
 }
 
 .footer-link {
@@ -240,8 +253,17 @@ line-height: 1.19;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    text-decoration: none
+    text-decoration: none;
+    font-style: normal;
     
+}
+
+.footer-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-link:focus {
+    color: var(--accent-color);
 }
 
 .footer-list {
@@ -254,6 +276,12 @@ line-height: 1.19;
 .body-portfolio {
     background-color: var(--main-white-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+.logo-portfolio {
+    color: var(--logo-color);
 }
 
 /* Header */
@@ -272,9 +300,18 @@ list-style-type: none;
     font-size: 0;
 }
 
+/* Examples of work */
+
 .examples-list {
     list-style-type: none;
+    letter-spacing: 0.06em;
 
+}
+
+.examples-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
 }
 
 .examples-tables {
@@ -284,4 +321,8 @@ list-style-type: none;
 
 .examples-categories {
     color: var(--little-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
