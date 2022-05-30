@@ -58,6 +58,11 @@
     color: var(--accent-color);
 }
 
+.nav-link:active {
+    color: var(--accent-color);
+    background-color: transparent;
+    }
+
 .nav-adress {
 
     color: var(--little-text-color);
@@ -69,6 +74,10 @@
     
 }
 .nav-adress:hover {
+    color: var(--accent-color);
+}
+
+.nav-adress:focus {
     color: var(--accent-color);
 }
 
@@ -108,8 +117,16 @@ list-style: none;
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+    font-family: inherit;
     
 }
+
+.button-first:hover,:focus {
+color: var(--main-white-color);
+background-color: var(--accent-color);
+cursor: pointer;
+}
+
 
 .button-hero {
 text-align: center;
@@ -124,6 +141,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
+font-family: inherit;
 
 }
 
@@ -132,6 +150,13 @@ color: var(--main-white-color);
 background-color: var(--accent-color);
 cursor: pointer;
 }
+
+.button-secondary:focus {
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
 
 
 
@@ -143,6 +168,7 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+letter-spacing: 0.03em;
 }
 
 .benefits.title {
@@ -154,6 +180,10 @@ color: var(--primary-text-color);
 .benefits-text {
     background-color: var(--main-white-color);
     color: var(--little-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
  
    
 }
