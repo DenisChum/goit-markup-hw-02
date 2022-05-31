@@ -50,17 +50,17 @@
     letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
 }
 
-.nav-link:focus {
+.current {
     color: var(--accent-color);
 }
 
 .nav-link:active {
     color: var(--accent-color);
-    background-color: transparent;
     }
 
 .nav-adress {
