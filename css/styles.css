@@ -13,46 +13,46 @@
 }
 
 .body {
-    background-color: var(--main-white-color);
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em; 
-    font-style: normal;
+background-color: var(--main-white-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em; 
+font-style: normal;
 }
 
 .logo {
-    color: var(--accent-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
+color: var(--accent-color);
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 } 
 
 .logo>.web {
-    color: var(--main-white-color) }
+color: var(--main-white-color) }
 
     /* Header */
 
 .nav-tutorial {
-   background-color: var(--main-white-color);
-   color: var(--primary-text-color);
-   letter-spacing: 0.02em;
+background-color: var(--main-white-color);
+color: var(--primary-text-color);
+letter-spacing: 0.02em;
   
 }
 
 .nav-link {
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
-    letter-spacing: 0.02em;
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 .current {
@@ -60,30 +60,26 @@
 }
 
 .nav-link:active {
-    color: var(--accent-color);
-    }
+color: var(--accent-color);
+}
 
 .nav-adress {
-
-    color: var(--little-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    
-}
-.nav-adress:hover {
-    color: var(--accent-color);
+color: var(--little-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;    
 }
 
+.nav-adress:hover,
 .nav-adress:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 .nav-tittle {
-    color: var(--primary-text-color);
-    list-style-type: none;
+color: var(--primary-text-color);
+list-style-type: none;
 }
 
 .nav-info {
@@ -93,35 +89,35 @@ list-style: none;
 /* Hero */
 
 .hero {
-    background-color:var(--hero-color) ;
+background-color:var(--hero-color) ;
     
 }
 
 .hero-tutorial {
-    color: var(--main-white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+color: var(--main-white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /* Button */
 
 .button-first {
-    background-color: var(--accent-color);
-    color: var(--main-white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    font-family: inherit;
-    
+background-color: var(--accent-color);
+color: var(--main-white-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+cursor: pointer;
+font-family: inherit; 
 }
 
-.button-first:hover,:focus {
+.button-first:hover,
+.button-first:focus {
 color: var(--main-white-color);
 background-color: var(--accent-color);
 cursor: pointer;
@@ -133,7 +129,6 @@ text-align: center;
 }
 
 .button-secondary {
-
 color: var(--primary-text-color);
 background: var(--bg-seconfary-color);
 cursor: pointer;
@@ -142,22 +137,14 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 font-family: inherit;
-
 }
 
-.button-secondary:hover {
+.button-secondary:hover,
+.button-secondary:focus {
 color: var(--main-white-color); 
 background-color: var(--accent-color);
 cursor: pointer;
 }
-
-.button-secondary:focus {
-    color: var(--main-white-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-}
-
-
 
 
 /* Benefits */
@@ -178,76 +165,72 @@ color: var(--primary-text-color);
 }
 
 .benefits-text {
-    background-color: var(--main-white-color);
-    color: var(--little-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
- 
-   
+background-color: var(--main-white-color);
+color: var(--little-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;  
 }
 
 .benefits {
-    color: transparent;
-    font-size: 0;
-    ;
+color: transparent;
+font-size: 0;
 }
 
 .benefits-list {
-    list-style-type: none;
-
+list-style-type: none;
 }
 
 .benefits-tutorial {
-    background-color: var(--main-white-color);
+background-color: var(--main-white-color);
 }
 /* About areas of work */
 
 .work {
-    background-color: var(--main-white-color);
+background-color: var(--main-white-color);
 }
 
 .work-tittle {
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
 }
 
 .work-list {
-    list-style-type: none;
+list-style-type: none;
 }
 /* Our Team */
 
 .team {
-    background-color: var(--bg-seconfary-color);
-    color: var(--primary-text-color);
+background-color: var(--bg-seconfary-color);
+color: var(--primary-text-color);
 }
 
 .team-members {
-    background-color: var(--main-white-color);
-    color: var(--primary-text-color);
+background-color: var(--main-white-color);
+color: var(--primary-text-color);
 }
 
 .team-tittle {
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
 }
 
 .team-position {
-    color: var(--little-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
+color: var(--little-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
 }
 
 .team-list {
-    list-style-type: none;
+list-style-type: none;
 }
 
 .team-name {
@@ -259,69 +242,63 @@ line-height: 1.19;
 /* Footer */
 
 .footer {
-    background-color: var(--bg-footer-color);
-    color: var(--main-white-color);
+background-color: var(--bg-footer-color);
+color: var(--main-white-color);
 }
 
 .footer-adress {
-    color: var(--main-white-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-    font-style: normal;
-   
+color: var(--main-white-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+text-decoration: none;
+font-style: normal;   
 }
 
-.footer-adress:hover {
-    color: var(--accent-color);
-}
-
+.footer-adress:hover,
 .footer-adress:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
+
 
 .footer-link {
-    color: rgba(255,255,255,60%);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-    font-style: normal;
-    
+color: rgba(255,255,255,60%);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+text-decoration: none;
+font-style: normal;    
 }
 
-.footer-link:hover {
-    color: var(--accent-color);
-}
-
+.footer-link:hover,
 .footer-link:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
+
 
 .footer-list {
-    list-style-type: none;
+list-style-type: none;
 }
 
 /* Page portfolio */
 /* Head */
 
 .body-portfolio {
-    background-color: var(--main-white-color);
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    font-style: normal;
+background-color: var(--main-white-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-style: normal;
 }
 
 .logo-portfolio {
-    color: var(--logo-color);
+color: var(--logo-color);
 }
 
 /* Header */
 /* Main content */
 
 .main {
-    background-color: var(--main-white-color);
+background-color: var(--main-white-color);
 }
 
 .main-list {
@@ -329,15 +306,15 @@ list-style-type: none;
 }
 
 .main-tittle {
-    color: transparent;
-    font-size: 0;
+color: transparent;
+font-size: 0;
 }
 
 /* Examples of work */
 
 .examples-list {
-    list-style-type: none;
-    letter-spacing: 0.06em;
+list-style-type: none;
+letter-spacing: 0.06em;
 
 }
 
@@ -348,14 +325,14 @@ line-height: 2;
 }
 
 .examples-tables {
-    background-color: var(--main-white-color);
-    color: var(--primary-text-color);
+background-color: var(--main-white-color);
+color: var(--primary-text-color);
 }
 
 .examples-categories {
-    color: var(--little-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+color: var(--little-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 }
